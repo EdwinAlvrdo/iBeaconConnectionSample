@@ -35,7 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C170202A204F39DB00DE6E0B /* pagodirecto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pagodirecto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C170202A204F39DB00DE6E0B /* iBeaconConnectionSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iBeaconConnectionSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C170202D204F39DB00DE6E0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C170202F204F39DB00DE6E0B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C1702032204F39DB00DE6E0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -43,10 +43,10 @@
 		C1702037204F39DB00DE6E0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C170203A204F39DB00DE6E0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C170203C204F39DB00DE6E0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C1702041204F39DB00DE6E0B /* pagodirectoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pagodirectoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1702041204F39DB00DE6E0B /* iBeaconConnectionSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iBeaconConnectionSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1702045204F39DB00DE6E0B /* pagodirectoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pagodirectoTests.swift; sourceTree = "<group>"; };
 		C1702047204F39DB00DE6E0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C170204C204F39DB00DE6E0B /* pagodirectoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pagodirectoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C170204C204F39DB00DE6E0B /* iBeaconConnectionSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iBeaconConnectionSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1702050204F39DB00DE6E0B /* pagodirectoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pagodirectoUITests.swift; sourceTree = "<group>"; };
 		C1702052204F39DB00DE6E0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -79,9 +79,9 @@
 		C1702021204F39DA00DE6E0B = {
 			isa = PBXGroup;
 			children = (
-				C170202C204F39DB00DE6E0B /* pagodirecto */,
-				C1702044204F39DB00DE6E0B /* pagodirectoTests */,
-				C170204F204F39DB00DE6E0B /* pagodirectoUITests */,
+				C170202C204F39DB00DE6E0B /* iBeaconConnectionSample */,
+				C1702044204F39DB00DE6E0B /* iBeaconConnectionSampleTests */,
+				C170204F204F39DB00DE6E0B /* iBeaconConnectionSampleUITests */,
 				C170202B204F39DB00DE6E0B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,14 +89,14 @@
 		C170202B204F39DB00DE6E0B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C170202A204F39DB00DE6E0B /* pagodirecto.app */,
-				C1702041204F39DB00DE6E0B /* pagodirectoTests.xctest */,
-				C170204C204F39DB00DE6E0B /* pagodirectoUITests.xctest */,
+				C170202A204F39DB00DE6E0B /* iBeaconConnectionSample.app */,
+				C1702041204F39DB00DE6E0B /* iBeaconConnectionSampleTests.xctest */,
+				C170204C204F39DB00DE6E0B /* iBeaconConnectionSampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C170202C204F39DB00DE6E0B /* pagodirecto */ = {
+		C170202C204F39DB00DE6E0B /* iBeaconConnectionSample */ = {
 			isa = PBXGroup;
 			children = (
 				C170202D204F39DB00DE6E0B /* AppDelegate.swift */,
@@ -107,33 +107,33 @@
 				C170203C204F39DB00DE6E0B /* Info.plist */,
 				C1702034204F39DB00DE6E0B /* pagodirecto.xcdatamodeld */,
 			);
-			path = pagodirecto;
+			path = iBeaconConnectionSample;
 			sourceTree = "<group>";
 		};
-		C1702044204F39DB00DE6E0B /* pagodirectoTests */ = {
+		C1702044204F39DB00DE6E0B /* iBeaconConnectionSampleTests */ = {
 			isa = PBXGroup;
 			children = (
 				C1702045204F39DB00DE6E0B /* pagodirectoTests.swift */,
 				C1702047204F39DB00DE6E0B /* Info.plist */,
 			);
-			path = pagodirectoTests;
+			path = iBeaconConnectionSampleTests;
 			sourceTree = "<group>";
 		};
-		C170204F204F39DB00DE6E0B /* pagodirectoUITests */ = {
+		C170204F204F39DB00DE6E0B /* iBeaconConnectionSampleUITests */ = {
 			isa = PBXGroup;
 			children = (
 				C1702050204F39DB00DE6E0B /* pagodirectoUITests.swift */,
 				C1702052204F39DB00DE6E0B /* Info.plist */,
 			);
-			path = pagodirectoUITests;
+			path = iBeaconConnectionSampleUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C1702029204F39DB00DE6E0B /* pagodirecto */ = {
+		C1702029204F39DB00DE6E0B /* iBeaconConnectionSample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C1702055204F39DB00DE6E0B /* Build configuration list for PBXNativeTarget "pagodirecto" */;
+			buildConfigurationList = C1702055204F39DB00DE6E0B /* Build configuration list for PBXNativeTarget "iBeaconConnectionSample" */;
 			buildPhases = (
 				C1702026204F39DB00DE6E0B /* Sources */,
 				C1702027204F39DB00DE6E0B /* Frameworks */,
@@ -143,14 +143,14 @@
 			);
 			dependencies = (
 			);
-			name = pagodirecto;
+			name = iBeaconConnectionSample;
 			productName = pagodirecto;
-			productReference = C170202A204F39DB00DE6E0B /* pagodirecto.app */;
+			productReference = C170202A204F39DB00DE6E0B /* iBeaconConnectionSample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C1702040204F39DB00DE6E0B /* pagodirectoTests */ = {
+		C1702040204F39DB00DE6E0B /* iBeaconConnectionSampleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C1702058204F39DB00DE6E0B /* Build configuration list for PBXNativeTarget "pagodirectoTests" */;
+			buildConfigurationList = C1702058204F39DB00DE6E0B /* Build configuration list for PBXNativeTarget "iBeaconConnectionSampleTests" */;
 			buildPhases = (
 				C170203D204F39DB00DE6E0B /* Sources */,
 				C170203E204F39DB00DE6E0B /* Frameworks */,
@@ -161,14 +161,14 @@
 			dependencies = (
 				C1702043204F39DB00DE6E0B /* PBXTargetDependency */,
 			);
-			name = pagodirectoTests;
+			name = iBeaconConnectionSampleTests;
 			productName = pagodirectoTests;
-			productReference = C1702041204F39DB00DE6E0B /* pagodirectoTests.xctest */;
+			productReference = C1702041204F39DB00DE6E0B /* iBeaconConnectionSampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		C170204B204F39DB00DE6E0B /* pagodirectoUITests */ = {
+		C170204B204F39DB00DE6E0B /* iBeaconConnectionSampleUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C170205B204F39DB00DE6E0B /* Build configuration list for PBXNativeTarget "pagodirectoUITests" */;
+			buildConfigurationList = C170205B204F39DB00DE6E0B /* Build configuration list for PBXNativeTarget "iBeaconConnectionSampleUITests" */;
 			buildPhases = (
 				C1702048204F39DB00DE6E0B /* Sources */,
 				C1702049204F39DB00DE6E0B /* Frameworks */,
@@ -179,9 +179,9 @@
 			dependencies = (
 				C170204E204F39DB00DE6E0B /* PBXTargetDependency */,
 			);
-			name = pagodirectoUITests;
+			name = iBeaconConnectionSampleUITests;
 			productName = pagodirectoUITests;
-			productReference = C170204C204F39DB00DE6E0B /* pagodirectoUITests.xctest */;
+			productReference = C170204C204F39DB00DE6E0B /* iBeaconConnectionSampleUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -197,6 +197,11 @@
 					C1702029204F39DB00DE6E0B = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					C1702040204F39DB00DE6E0B = {
 						CreatedOnToolsVersion = 9.2;
@@ -210,7 +215,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C1702025204F39DB00DE6E0B /* Build configuration list for PBXProject "pagodirecto" */;
+			buildConfigurationList = C1702025204F39DB00DE6E0B /* Build configuration list for PBXProject "iBeaconConnectionSample" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -223,9 +228,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C1702029204F39DB00DE6E0B /* pagodirecto */,
-				C1702040204F39DB00DE6E0B /* pagodirectoTests */,
-				C170204B204F39DB00DE6E0B /* pagodirectoUITests */,
+				C1702029204F39DB00DE6E0B /* iBeaconConnectionSample */,
+				C1702040204F39DB00DE6E0B /* iBeaconConnectionSampleTests */,
+				C170204B204F39DB00DE6E0B /* iBeaconConnectionSampleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -289,12 +294,12 @@
 /* Begin PBXTargetDependency section */
 		C1702043204F39DB00DE6E0B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C1702029204F39DB00DE6E0B /* pagodirecto */;
+			target = C1702029204F39DB00DE6E0B /* iBeaconConnectionSample */;
 			targetProxy = C1702042204F39DB00DE6E0B /* PBXContainerItemProxy */;
 		};
 		C170204E204F39DB00DE6E0B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C1702029204F39DB00DE6E0B /* pagodirecto */;
+			target = C1702029204F39DB00DE6E0B /* iBeaconConnectionSample */;
 			targetProxy = C170204D204F39DB00DE6E0B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -367,7 +372,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -418,7 +423,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -432,9 +437,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F8Y28RG35Z;
-				INFOPLIST_FILE = pagodirecto/Info.plist;
+				INFOPLIST_FILE = iBeaconConnectionSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.paytech.pagodirecto;
+				PRODUCT_BUNDLE_IDENTIFIER = com.paytech.iBeaconConnectionSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -447,9 +452,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F8Y28RG35Z;
-				INFOPLIST_FILE = pagodirecto/Info.plist;
+				INFOPLIST_FILE = iBeaconConnectionSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.paytech.pagodirecto;
+				PRODUCT_BUNDLE_IDENTIFIER = com.paytech.iBeaconConnectionSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -469,7 +474,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pagodirecto.app/pagodirecto";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iBeaconConnectionSample.app/iBeaconConnectionSample";
 			};
 			name = Debug;
 		};
@@ -486,7 +491,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pagodirecto.app/pagodirecto";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iBeaconConnectionSample.app/iBeaconConnectionSample";
 			};
 			name = Release;
 		};
@@ -525,7 +530,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C1702025204F39DB00DE6E0B /* Build configuration list for PBXProject "pagodirecto" */ = {
+		C1702025204F39DB00DE6E0B /* Build configuration list for PBXProject "iBeaconConnectionSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C1702053204F39DB00DE6E0B /* Debug */,
@@ -534,7 +539,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C1702055204F39DB00DE6E0B /* Build configuration list for PBXNativeTarget "pagodirecto" */ = {
+		C1702055204F39DB00DE6E0B /* Build configuration list for PBXNativeTarget "iBeaconConnectionSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C1702056204F39DB00DE6E0B /* Debug */,
@@ -543,7 +548,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C1702058204F39DB00DE6E0B /* Build configuration list for PBXNativeTarget "pagodirectoTests" */ = {
+		C1702058204F39DB00DE6E0B /* Build configuration list for PBXNativeTarget "iBeaconConnectionSampleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C1702059204F39DB00DE6E0B /* Debug */,
@@ -552,7 +557,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C170205B204F39DB00DE6E0B /* Build configuration list for PBXNativeTarget "pagodirectoUITests" */ = {
+		C170205B204F39DB00DE6E0B /* Build configuration list for PBXNativeTarget "iBeaconConnectionSampleUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C170205C204F39DB00DE6E0B /* Debug */,
